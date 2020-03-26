@@ -6,7 +6,7 @@ node {
     }
 
     stage('Build image') {
-        app = docker.build('htl-leonding/example-app-4bhif')
+        app = docker.build('htlleonding/example-app-4bhif')
     }
 
     stage('Push image') {
